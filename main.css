@@ -1,0 +1,53 @@
+
+
+@font-face {
+    font-family: norse_bold;
+    src: url(Norse-Bold.otf);
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+h1{
+    font-family: norse_bold;
+    color: aliceblue;
+    font-size: 80px;
+}
+
+
+
+.bg{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 500px;
+}
+
+
+.bg img{
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+}
+
+
+
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+label{
+    display: block;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
