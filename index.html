@@ -4,61 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
     <title>Sign Up Form</title>
 </head>
 <body>
+    
     <div class="container">
-        <div class="left">
-            <div class="bg">
-                <div class="odin_logo">
-                    <img src="odin-lined.png" alt="">
-                    <h1>ODIN</h1>
-                </div> 
-                <p id="pc">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
+
+        <div class="left box">
+            <div class="odin">
+                <img src="odin-lined.png" alt="odin-logo">
+                <span>ODIN</span>
             </div>
+            
         </div>
-        <div class="right">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up now to get started.</p>
-            <p>You know you want to!.</p>
-           <fieldset>
-            <p >Lets's do this!</p>
 
+        <div class="right box">
+            <p>This is not a real online service! You Know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign Up now to get started.</p>
+            <p>You Know you want to.</p>
             <form action="">
-
-                <div class="input">
-                    <label for="first name">FIRST NAME</label>
-                    <input type="text" required>
+                <div class="form-container">
+                    <h1>Let's do this!</h1>
+                    <div class="input">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <label for="email">EMAIL</label>
+                        <input type="email">
+                    </div>
+                    <div class="input">
+                        <label for="tel">TELEPHONE</label>
+                        <input type="tel">
+                    </div>
+                    <div class="input">
+                        <label for="password">PASSWORD</label>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <label for="password">CONFIRM PASSWORD</label>
+                        <input type="text">
+                    </div>
                 </div>
-                <div class="input">
-                    <label for="last name">LAST NAME</label>
-                    <input type="text" required>
-                </div>
-                <div class="input">
-                    <label for="email">EMAIL</label>
-                    <input type="email" required>
-                </div>
-                <div class="input">
-                    <label for="telephone">TELEPHONE</label>
-                    <input type="tel" required>
-                </div>
-                <div class="input">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" required>
-                </div>
-                <div class="input">
-                    <label for="password">CONFIRM PASSWORD</label>
-                    <input type="password" required>
-                </div>
-           </fieldset>
-           <button type="submit">Create Account</button>
-        </form>
-
-            <p id="account">Already have an account? <a href="#" style="text-decoration: none;">Log in</a></p>
-
+                <button>Create Account</button>
+            </form>
+            <p>Already have an account?<a href="#">Log in</a></p>
         </div>
     </div>
-
 </body>
-
 </html>
