@@ -83,14 +83,13 @@ span{
     font-family: josefinSans-medium;
     font-size: 0.8rem;
     margin-right: 2rem;
-}
+  }
 
 .form-container h1{
     width: 100%;
 }
 
 .input{
-    flex-grow: 1;
     width: 50%;
 }
 
@@ -100,7 +99,7 @@ span{
 
 .input input{
     height: 1.5rem;
-    width: 200px;
+    width: 80%;
 }
 
 .left a{
